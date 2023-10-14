@@ -1,10 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:foodpanda_clone/insert_model.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
+
+import '../../../models/insert_model.dart';
 class RestaurantForm extends StatefulWidget {
   @override
   _RestaurantFormState createState() => _RestaurantFormState();

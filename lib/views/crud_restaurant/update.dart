@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
 
-import '../../../insert_model.dart';
+import '../../../models/insert_model.dart';
 
 class Picture {
   int id;

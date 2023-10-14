@@ -4,7 +4,8 @@ import 'package:foodpanda_clone/views/DetailRestaurant/detailRetaurant.dart';
 import 'package:foodpanda_clone/views/home/widgets/insert.dart';
 import 'package:http/http.dart' as http;
 
-import '../../../get_model.dart';
+
+import '../../../models/get_model.dart';
 import 'update.dart';
 
 class TopRestaurant extends StatefulWidget {
